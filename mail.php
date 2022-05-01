@@ -11,7 +11,9 @@ $recipient = "testing1122332021@outlook.com";
 
 mail($recipient, $subject, $message, $mailheader) or die("Error!");
 
-echo'
+echo;
+
+'
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,11 +32,7 @@ echo'
         
     </div>
 </body>
-</html>
-
-
-
-';
+</html>';
 
 
 ?>
